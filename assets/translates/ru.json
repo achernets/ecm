@@ -1,0 +1,552 @@
+{
+  "common": {
+    "login": "Логин",
+    "password": "Пароль",
+    "ready": "Готово",
+    "cancel": "Отменить",
+    "apply": "Применить",
+    "clear": "Очистить",
+    "confirm": "Подтвертить",
+    "confirmation": "Подтвердите",
+    "confirmation_remove_item": "Подтвердите удаление елемента",
+    "error": "Ошибка",
+    "done": "Готово",
+    "of": "из",
+    "more": "Подробнее",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "close": "Закрыть",
+    "documents": "Документы",
+    "events": "События",
+    "accounts": "Аккаунты",
+    "delegates": "Делегирование",
+    "all_accounts": "Все аккаунты",
+    "all_groups": "Все группы",
+    "all_groups_or_patterns": "Все группы и шаблоны",
+    "without_groups": "Без группы",
+    "all_templates": "Все шаблоны",
+    "no_data": "Нет данных",
+    "enter_name": "Введите название",
+    "save": "Сохранить",
+    "account": "Аккаунт",
+    "without_account": "Без аккаунта",
+    "update": "Обновить",
+    "create": "Создать",
+    "find_total": "Найдено",
+    "all_types": "Все типы",
+    "param": "Параметр %{n}",
+    "more_number": "Ещё %{n}",
+    "upload": "Загрузить",
+    "all": "Все"
+  },
+  "navigations": {
+    "login": "Авторизация",
+    "open": "Открыть",
+    "hide": "Скрыть",
+    "logout": "Выйти",
+    "home": "Домашняя страница",
+    "documents": "Документи",
+    "users": "Пользователи",
+    "administration": {
+      "title": "Администрирование",
+      "logs": "Логи",
+      "premises": "Помещения",
+      "fileStorages": "Файловые хранилища",
+      "externalModules": "BPM-модули",
+      "securityClassifications": "Грифы",
+      "reports": "Отчеты",
+      "docNumbers": "Номенклатурные номера",
+      "fields": "Поля",
+      "filters": "Представления",
+      "resources": "Ресурсы",
+      "sessions": "Сессии",
+      "userPublicKeys": "Ключи",
+      "translate": "Переводы",
+      "security": "Безопасность",
+      "bpm": "BPM",
+      "interface": "Интерфейс",
+      "system": "Системные",
+      "calendar": "Календарь",
+      "cryptValue": "Шифратор",
+      "licenses": "Лицензии",
+      "usersPanel": "Пользователи",
+      "handbooks": "Справочники",
+      "registries": "Реестры"
+    }
+  },
+  "form": {
+    "enter_fio": "Введите ФИО",
+    "enter_text": "Введите текст",
+    "select_value": "Выберите значение",
+    "enter_number": "Введите номер",
+    "required": "Обязательное поле",
+    "email": "Некорректный email",
+    "min": "Минимум %{n} символа",
+    "max": "Максимум %{n} символов",
+    "min_number": "Минимум %{n}",
+    "max_number": "Максимум %{n}",
+    "url": "Некорректный url"
+  },
+  "login": {
+    "enter": "Зайти",
+    "help": "Нужна помощь?",
+    "forgot": "Забыли пароль",
+    "locale_not_found": "Файл с языком не найдет"
+  },
+  "tooltips": {
+    "originalUser": {
+      "title": "Выполнил действие замещающий"
+    }
+  },
+  "ResetPassword": {
+    "title": "Сбросить пароль",
+    "text": "Для восстановления пароля укажите Ваш логин для входа в систему. Вам будет отправлено письмо с последующими инструкциями.",
+    "placeholder": "Введите логин",
+    "success": "На ваш email отправлено дальнейшие инструкции."
+  },
+  "dashboard": {
+    "morning": "Доброе утро",
+    "afternoon": "Добрый день",
+    "evening": "Добрый вечер",
+    "welcom": "Добро пожаловать",
+    "w_calendar": "Календарь",
+    "w_my_calendar": "Мой календарь",
+    "w_access_mode": "Режим доступа",
+    "w_view": "Просмотр",
+    "w_read_write": "Чтение и запись",
+    "w_no_docs": "У Вас нет документов в работе",
+    "w_no_events": "У Вас нет запланированных событий на сегодня",
+    "w_wip_doc": "Документы в работе",
+    "w_analys_docs": "Выполнение по документам",
+    "w_analys_label1": "Наступил конечный срок",
+    "w_analys_label2": "Приближается конечный срок",
+    "w_analys_label3": "Новые документы",
+    "w_exec_docs": "Выполнение задач по документам на сегодня",
+    "w_task": "Задача",
+    "w_tasks": "Задачи",
+    "w_task2": "Задач"
+  },
+  "news": {
+    "news": "Новости",
+    "add": "Добавить новость",
+    "edit": "Редактировать новость",
+    "not_list": "Новости еще не добавлены",
+    "delete": "Удаление новости",
+    "confirm_delete": "Вы уверены, что хотите удалить новость \"%{name}\"",
+    "theNewsName": "Название",
+    "theNewsName_placeholder": "Введите название",
+    "theNewsDescription": "Описание",
+    "theNewsDescription_placeholder": "Введите описание",
+    "previewUrl": "Url предпросмотра",
+    "previewUrl_placeholder": "Введите url",
+    "urls": "Urls детального просмотра",
+    "urls_placeholder": "Введите url",
+    "add_url": "Добавить url"
+  },
+  "table": {
+    "status": "Статус",
+    "numberDocument": "Номер документа",
+    "nameDocument": "Название документа"
+  },
+  "UserOrGroup": {
+    "fio": "ФИО",
+    "email": "email",
+    "phone": "Телефон",
+    "departments": "Подразделение",
+    "position": "Должность",
+    "userLastName": "Фамилия",
+    "userFirstName": "Имя",
+    "userMiddleName": "Отчество"
+  },
+  "users": {
+    "usersWithoutAccount": "Без аккаунта",
+    "search_user": "По пользователю",
+    "search_user_pl": "Введите ФИО",
+    "search_email": "По email",
+    "search_email_pl": "Введите email",
+    "search_position": "По должности",
+    "search_position_pl": "Введите должность",
+    "search_phone": "По телефону",
+    "search_phone_pl": "Введите телефон",
+    "search_departments": "По подразделению",
+    "search_departments_pl": "Введите название подразделения",
+    "search_login": "По логину",
+    "search_login_pl": "Введите логин"
+  },
+  "documents": {
+    "search_number": "Введите номер",
+    "for_number_month": "За %{number} месяц",
+    "for_number_month_1": "За %{number} месяца",
+    "for_number_month_2": "За %{number} месяцев",
+    "search_by_number": "Поиск по номеру",
+    "search_systemNumber": "Системный",
+    "search_systemOrDocNumber": "Сис. или рег. номер",
+    "search_numberDocument": "Регистрационный",
+    "search_equalNumber": "Точный поиск",
+    "search_by_text": "Поиск по тексту",
+    "search_docName": "Краткое содержание",
+    "search_contName": "Поля документа",
+    "search_S_LIKE": "Точный поисковый запрос",
+    "search_S_ANY": "Любое слово запроса",
+    "search_S_ALL": "Все слова запроса",
+    "search_isSemantic": "Семантический поиск",
+    "search_isSearchCryptDoc": "Поиск в зашифрованных документах",
+    "search_stringForReplace": "Поиск с заменой символов",
+    "search_text_pl": "Введите текст",
+    "search_by_date": "Поиск по дате",
+    "search_createDate": "По дате создания",
+    "search_registrationDate": "По дате регистрации",
+    "search_documentDeadlineDate": "По контрольной дате",
+    "search_dateFrom": "с",
+    "search_dateTo": "по",
+    "search_by_users": "Поиск по пользователю",
+    "search_by_handBooks": "Поиск по cправочнику",
+    "search_handBook_and_column": "Выберите справочник и колонку",
+    "search_handBook_values": "Введите значение",
+    "search_creatorId": "Автор",
+    "search_responsId": "Ответственный",
+    "search_signId": "Утверждающий",
+    "search_execId": "Исполнитель",
+    "search_inboxUserId": "Получатель",
+    "search_confirmerId": "Cогласующий",
+    "no_data": "Нет документов, соответствующих вашему запросу",
+    "new_document": "Создать документ"
+  },
+  "reports": {
+    "report": "Отчёт",
+    "search": "Введите название",
+    "new": "Создать отчёт",
+    "view": "Просмотр",
+    "download": "Скачать",
+    "add_params": "Добавить параметр",
+    "upload_file": "Загрузить файл",
+    "select_file": "Выбрать файл"
+  },
+  "ReportTemplate": {
+    "reportName": "Название",
+    "group": "Группа",
+    "reportType": "Тип отчета",
+    "fastPrint": "Быстрая печать",
+    "addWatermark": "Водяной знак",
+    "reportCount": "К-во созданий",
+    "createDate": "Дата/Время"
+  },
+  "ReportTemplateType": {
+    "COMMON": "Общий",
+    "PATTERN": "К документу"
+  },
+  "ReportType": {
+    "XML": "Генерировать отчёт в XML",
+    "PDF": "Генерировать отчёт в PDF",
+    "XLS": "Генерировать отчёт в XLS",
+    "DOC": "Генерировать отчёт в DOC"
+  },
+  "nomenclatureNumbers": {
+    "nomenclatureNumber": "Номенклатурный номер",
+    "search": "Введите название",
+    "new": "Создать номенклатурный номер",
+    "cancel": "Отменить изменения"
+  },
+  "NomenclatureNumber": {
+    "oName": "Номер документа",
+    "numberPattern": "Шаблон номера документа",
+    "currentSequenceValue": "Текущий номер документа"
+  },
+  "MaterialResource": {
+    "nameMaterRes": "Название",
+    "type": "Тип",
+    "countPersons": "Количество людей"
+  },
+  "MaterialResourceType": {
+    "PREMISES": "Помещения",
+    "EQUIPMENT": "Оборудование"
+  },
+  "resources": {
+    "name": "Ресурсы",
+    "createNew": "Создать новый ресурс"
+  },
+  "premises": {
+    "name": "Помещения",
+    "createNew": "Создать новое помещение"
+  },
+  "Premises": {
+    "name": "Помещение",
+    "createNew": "Создать новое помещение",
+    "namePremises": "Название"
+  },
+  "fileStorage": {
+    "fileStorage": "Файловое хранилище",
+    "new": "Создать файловое хранилище"
+  },
+  "FileStorage": {
+    "descriptionFileStorage": "Название",
+    "type": "Тип",
+    "priority": "Приоритет",
+    "uri": "Url",
+    "readOnly": "Запись",
+    "freeSpace": "Доступное пространство",
+    "createDate": "Дата создания"
+  },
+  "FileStorageType": {
+    "PRIMARY": "Основной",
+    "ARCHIVE": "Архивный"
+  },
+  "externalModule": {
+    "externalModule": "BPM-модуль",
+    "new": "Создать BPM-модуль"
+  },
+  "ExternalModule": {
+    "nameExternalModule": "Название",
+    "descriptionExternalModule": "Описание",
+    "createDate": "Дата создания",
+    "url": "Url",
+    "user": {
+      "userFirstName": "Пользователь",
+      "userLastName": "Название модуля"
+    },
+    "protocolType": "Тип протокола",
+    "error": "Ошибка",
+    "secretKey": "Секретный ключ"
+  },
+  "securityClassification": {
+    "securityClassification": "Гриф",
+    "new": "Создать гриф",
+    "dependencies": "Связанные грифы"
+  },
+  "SecurityClassification": {
+    "gname": "Название",
+    "scDescription": "Описание",
+    "group": "Группа",
+    "share": "Функция ознакомления с документом"
+  },
+  "filterField": {
+    "filterField": "Поле",
+    "new": "Создать поле"
+  },
+  "FilterField": {
+    "field": "Поле",
+    "displayName": "Название",
+    "enableSorting": "Включить сортировку",
+    "visible": "Показать",
+    "width": "Ширина",
+    "color": "Цвет"
+  },
+  "docFilter": {
+    "docFilter": "Фильтр",
+    "plus": "Добавить параметр",
+    "new": "Создать фильтр"
+  },
+  "DocFilter": {
+    "oName": "Название",
+    "fields": "Поля",
+    "positionMobile": "Позиция",
+    "forMobile": "Для мобильных",
+    "positionRegistry": "Позиция",
+    "forRegistry": "Для реестров",
+    "positionDocument": "Позиция",
+    "forDocument": "Для документов"
+  },
+  "CustomFilterItem": {
+    "field": "Поле",
+    "fType": "Тип",
+    "condition": "Условие",
+    "value": "Значение"
+  },
+  "sessions": {
+    "dateFrom": "Дата начала сессии",
+    "dateTo": "Дата окончания сессии",
+    "isActive": "Активные сессии",
+    "closed_sessions": "Подтвердите закрытие сессии"
+  },
+  "AuthSession": {
+    "expireDate": "Дата окончания",
+    "createDate": "Дата начала",
+    "updateDate": "Дата обновления",
+    "ip1": "IP",
+    "ip2": "Ip (local)",
+    "clientInfo": "Пользователь",
+    "deviceType": "Клиент"
+  },
+  "DeviceType": {
+    "ANDROID": "Android",
+    "IOS": "iOS",
+    "WEB": "Web"
+  },
+  "userPublicKeys": {
+    "actions": "Действие",
+    "confirmate": " Подтвердить сертификат",
+    "prohibited": "Запртетить сертификат"
+  },
+  "UserKeyData": {
+    "userId": "Пользователь",
+    "adminId": "Подтвердил",
+    "createDate": "Загружен",
+    "confirmDate": "Дата подтверж",
+    "keyState": "Статус"
+  },
+  "CertificateInfo": {
+    "serialNumber": "Серийный номер",
+    "issuerDN": "Кем выдан",
+    "subjectDN": "Кому выдан",
+    "beforeDate": "Дата выдачи",
+    "afterDate": "Дата"
+  },
+  "KeyState": {
+    "LOADED": "Загружен",
+    "CONFIRM": "Подтверждён",
+    "PROHIBITED": "Запрещён",
+    "NO_FILE": "Нет файла"
+  },
+  "logs": {
+    "all_level": "Все события",
+    "all_event": "Все ключи",
+    "search_text": "Введите номер документа",
+    "date": {
+      "from": "Дата с",
+      "to": "Дата по"
+    }
+  },
+  "History": {
+    "createDate": "Дата создания",
+    "level": "Тип",
+    "key": "Ключ",
+    "ip1": "Ip",
+    "ip2": "Ip (local)",
+    "hasDetailData": "Полный лог"
+  },
+  "HistoryLevel": {
+    "INFO": "Информативные",
+    "WARNING": "Предупреждение",
+    "ERROR": "Ошибка"
+  },
+  "TranslateBackend": {
+    "title": "Переводы",
+    "upload_text": "Загрузить языковой пакет",
+    "upload_button": "Сохранить",
+    "upload_notification": "Языковый пакет загружен",
+    "download_text": "Скачать языковой пакет",
+    "download_button": "Скачать"
+  },
+  "UploadFiles": {
+    "text": "Нажмите или перетащите файл в эту область, чтобы загрузить",
+    "size_error": "Максимальный размер файла %{size}"
+  },
+  "CryptValue": {
+    "title": "Шифратор",
+    "key": "Ключ"
+  },
+  "License": {
+    "accountGroup": "Группа аккаунтов",
+    "account": "Аккаунт",
+    "validFrom": "Дата от",
+    "validTo": "Дата до",
+    "user": "Пользователь",
+    "userCount": "Количество пользователей",
+    "autoAssignment": "Авто присвоение",
+    "autoAssignmentOrder": "Приоритет"
+  },
+  "licenses": {
+    "title": "Лицензия",
+    "new": "Загрузить лицензии"
+  },
+  "UploadLicense": {
+    "title": "Загрузить лицензию",
+    "file": "Файл лицензии",
+    "autoAssignment": "Авто присвоение",
+    "autoAssignmentOrder": "Приоритет"
+  },
+  "handbooks": {
+    "system": "Системные",
+    "user_books": "Пользовательские",
+    "search_handbook_placeholder": "Введите название справочника",
+    "search_value_placeholder": "Введите значение справочника",
+    "add_handbook_tooltip": "Создать значение справочника",
+    "add_value": "Добавить",
+    "add_value_tooltip": "Создать значение справочника",
+    "select_or": "Выберите или",
+    "create_handbook": "создайте справочник",
+    "no_values_text": "У справочника ещё нет значений",
+    "add_value_text_button": "cоздать значение справочника"
+  },
+  "CreateUpdateHandBookValue": {
+    "title": "Добавить/Редактировать значение",
+    "user": "Пользователь",
+    "value": "Значение языка %{lang}"
+  },
+  "CreateUpdateHandBook": {
+    "title": "Добавить/Редактировать справочник",
+    "general": "Общий",
+    "columns": "Колонки",
+    "accounts": "Аккаунты",
+    "access": "Доступ",
+    "column": "Колонка %{index}",
+    "addColumn": "Добавить колонку",
+    "accountsName": "Название аккаунта",
+    "no_add_users": "Нет добавленных пользователей",
+    "add_users": "добавить пользователей"
+  },
+  "HandBook": {
+    "hBookName": "Название %{name}",
+    "thriftURL": "Url внешнего справочника",
+    "copyValue": "Копировать значение в элементы справочника",
+    "transportType": "thrift Transport Type",
+    "protocolType": "thrift Protocol Type"
+  },
+  "HBColumn": {
+    "oName": "Название",
+    "requiredColumn": "Обязательное",
+    "searchable": "Отображать для поиска",
+    "columnType": "Тип"
+  },
+  "HBColumnType": {
+    "TEXT": "Текст",
+    "NUMBER": "Номер",
+    "USER_CHOICE": "Пользователь"
+  },
+  "Registry": {
+    "regName": "Название",
+    "regDescription": "Описание",
+    "position": "Позиция",
+    "viewRule": "Представление в базе",
+    "autoDownload": "Загружать автоматически",
+    "userOrGrList": "Пользователи"
+  },
+  "registries": {
+    "registr": "Реестр",
+    "new": "Создать реестр"
+  },
+  "DocumentIconType": {
+    "ICON_DRAFT_tooltip": "ICON_DRAFT",
+    "ICON_COMPLETE_CANCEL_tooltip": "ICON_COMPLETE_CANCEL",
+    "ICON_COMPLETE_EDITED_tooltip": "ICON_COMPLETE_EDITED",
+    "ICON_COMPLETE_tooltip": "ICON_COMPLETE",
+    "ICON_IN_WORK_NO_MY_CANCEL_tooltip": "ICON_IN_WORK_NO_MY_CANCEL",
+    "ICON_IN_WORK_NO_MY_EDITED_tooltip": "ICON_IN_WORK_NO_MY_EDITED",
+    "ICON_IN_WORK_NO_MY_tooltip": "ICON_IN_WORK_NO_MY",
+    "ICON_IN_WORK_EDITED_tooltip": "ICON_IN_WORK_EDITED",
+    "ICON_IN_WORK_CANCELED_tooltip": "ICON_IN_WORK_CANCELED",
+    "ICON_IN_WORK_tooltip": "ICON_IN_WORK",
+    "ICON_IN_WORK_WARNING_EDITED_tooltip": "ICON_IN_WORK_WARNING_EDITED",
+    "ICON_IN_WORK_WARNING_CANCELED_tooltip": "ICON_IN_WORK_WARNING_CANCELED",
+    "ICON_IN_WORK_WARNING_tooltip": "ICON_IN_WORK_WARNING",
+    "ICON_IN_WORK_ERROR_EDITED_tooltip": "ICON_IN_WORK_ERROR_EDITED",
+    "ICON_IN_WORK_ERROR_CANCELED_tooltip": "ICON_IN_WORK_ERROR_CANCELED",
+    "ICON_IN_WORK_ERROR_tooltip": "ICON_IN_WORK_ERROR",
+    "ICON_ARCHIVE_tooltip": "ICON_ARCHIVE",
+    "ICON_ERROR_tooltip": "ICON_ERROR"
+  },
+  "DocRelationType": {
+    "PARENT": "Основной документ",
+    "CHILD": "Дочерний документ",
+    "OTHER": "Другой документ"
+  },
+  "JIRA_TIME": {
+    "m": "Минут",
+    "h": "Час",
+    "d": "День",
+    "w": "Неделя",
+    "M": "Месяц",
+    "q": "Квартал",
+    "y": "Год"
+  }
+}
