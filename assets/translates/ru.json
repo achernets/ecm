@@ -181,6 +181,7 @@
     "search_systemNumber": "Системный",
     "search_systemOrDocNumber": "Сис. или рег. номер",
     "search_numberDocument": "Регистрационный",
+    "search_externalNumber": "Исходящий номер",
     "search_equalNumber": "Точный поиск",
     "search_by_text": "Поиск по тексту",
     "search_docName": "Краткое содержание",
@@ -209,7 +210,8 @@
     "search_inboxUserId": "Получатель",
     "search_confirmerId": "Cогласующий",
     "no_data": "Нет документов, соответствующих вашему запросу",
-    "new_document": "Создать документ"
+    "new_document": "Создать документ",
+    "externalNumber": "Исходящий номер"
   },
   "reports": {
     "report": "Отчёт",
