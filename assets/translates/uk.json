@@ -8,7 +8,8 @@
     "clear": "common.clear",
     "confirm": "Підтвердити",
     "confirmation": "Підтвердження",
-    "error": "Помилка",
+    "confirmation_remove_item": "Помилка",
+    "error": "common.error",
     "done": "common.done",
     "of": "common.of",
     "more": "common.more",
@@ -21,22 +22,80 @@
     "delegates": "common.delegates",
     "all_accounts": "common.all_accounts",
     "all_groups": "common.all_groups",
+    "without_groups": "common.without_groups",
     "all_templates": "common.all_templates",
-    "no_data": "common.no_data"
+    "no_data": "common.no_data",
+    "enter_name": "common.enter_name",
+    "save": "common.save",
+    "account": "common.account",
+    "without_account": "common.without_account",
+    "update": "common.update",
+    "create": "common.create",
+    "find_total": "common.find_total",
+    "all_types": "common.all_types",
+    "param": "common.param",
+    "more_number": "common.more_number",
+    "upload": "common.upload",
+    "all": "common.all"
+  },
+  "navigations": {
+    "login": "navigations.login",
+    "open": "navigations.open",
+    "hide": "navigations.hide",
+    "logout": "navigations.logout",
+    "home": "navigations.home",
+    "documents": "navigations.documents",
+    "users": "navigations.users",
+    "administration_title": "navigations.administration_title",
+    "administration_logs": "navigations.administration_logs",
+    "administration_premises": "navigations.administration_premises",
+    "administration_fileStorages": "navigations.administration_fileStorages",
+    "administration_externalModules": "navigations.administration_externalModules",
+    "administration_securityClassifications": "navigations.administration_securityClassifications",
+    "administration_reports": "navigations.administration_reports",
+    "administration_docNumbers": "navigations.administration_docNumbers",
+    "administration_fields": "navigations.administration_fields",
+    "administration_filters": "navigations.administration_filters",
+    "administration_resources": "navigations.administration_resources",
+    "administration_sessions": "navigations.administration_sessions",
+    "administration_userPublicKeys": "navigations.administration_userPublicKeys",
+    "administration_translate": "navigations.administration_translate",
+    "administration_security": "navigations.administration_security",
+    "administration_bpm": "navigations.administration_bpm",
+    "administration_interface": "navigations.administration_interface",
+    "administration_system": "navigations.administration_system",
+    "administration_calendar": "navigations.administration_calendar",
+    "administration_cryptValue": "navigations.administration_cryptValue",
+    "administration_licenses": "navigations.administration_licenses",
+    "administration_usersPanel": "navigations.administration_usersPanel",
+    "administration_handbooks": "navigations.administration_handbooks",
+    "administration_registries": "navigations.administration_registries",
+    "administration_orgStructures": "navigations.administration_orgStructures"
   },
   "form": {
     "enter_fio": "form.enter_fio",
-    "required": "Обовязкове поле",
-    "email": "Некоректний email",
-    "min": "Мінімум %{n} символа",
-    "max": "Максимум %{n} символів",
-    "url": "Некоректний url"
+    "enter_text": "form.enter_text",
+    "select_value": "form.select_value",
+    "enter_number": "form.enter_number",
+    "required": "form.required",
+    "email": "form.email",
+    "min": "form.min",
+    "max": "form.max",
+    "min_number": "form.min_number",
+    "max_number": "form.max_number",
+    "url": "form.url"
   },
   "login": {
     "enter": "Увійти",
     "help": "Потрібна допомога?",
     "forgot": "Забув пароль",
     "locale_not_found": "Файл з мовою не найден"
+  },
+  "tooltips": {
+    "originalUser_title": "tooltips.originalUser_title",
+    "create_custom_filter": "tooltips.create_custom_filter",
+    "settings_table_and_filters": "tooltips.settings_table_and_filters",
+    "user_has_been_stage": "tooltips.user_has_been_stage"
   },
   "ResetPassword": {
     "title": "Скинути пароль",
@@ -88,12 +147,15 @@
     "numberDocument": "table.numberDocument",
     "nameDocument": "table.nameDocument"
   },
-  "userOrGroup": {
-    "fio": "userOrGroup.fio",
-    "email": "userOrGroup.email",
-    "phone": "userOrGroup.phone",
-    "departments": "userOrGroup.departments",
-    "position": "userOrGroup.position"
+  "UserOrGroup": {
+    "fio": "UserOrGroup.fio",
+    "email": "UserOrGroup.email",
+    "phone": "UserOrGroup.phone",
+    "departments": "UserOrGroup.departments",
+    "position": "UserOrGroup.position",
+    "userLastName": "UserOrGroup.userLastName",
+    "userFirstName": "UserOrGroup.userFirstName",
+    "userMiddleName": "UserOrGroup.userMiddleName"
   },
   "users": {
     "usersWithoutAccount": "users.usersWithoutAccount",
@@ -119,10 +181,12 @@
     "search_systemNumber": "documents.search_systemNumber",
     "search_systemOrDocNumber": "documents.search_systemOrDocNumber",
     "search_numberDocument": "documents.search_numberDocument",
+    "search_externalNumber": "documents.search_externalNumber",
     "search_equalNumber": "documents.search_equalNumber",
     "search_by_text": "documents.search_by_text",
     "search_docName": "documents.search_docName",
     "search_contName": "documents.search_contName",
+    "search_docNameIsSearchCryptDoc": "documents.search_docNameIsSearchCryptDoc",
     "search_S_LIKE": "documents.search_S_LIKE",
     "search_S_ANY": "documents.search_S_ANY",
     "search_S_ALL": "documents.search_S_ALL",
@@ -133,12 +197,14 @@
     "search_by_date": "documents.search_by_date",
     "search_createDate": "documents.search_createDate",
     "search_registrationDate": "documents.search_registrationDate",
+    "search_externalRegDate": "documents.search_externalRegDate",
     "search_documentDeadlineDate": "documents.search_documentDeadlineDate",
     "search_dateFrom": "documents.search_dateFrom",
     "search_dateTo": "documents.search_dateTo",
     "search_by_users": "documents.search_by_users",
     "search_by_handBooks": "documents.search_by_handBooks",
-    "search_handBook_and_column": "documents.search_handBook_and_column",
+    "search_handBook": "documents.search_handBook",
+    "search_handBook_column": "documents.search_handBook_column",
     "search_handBook_values": "documents.search_handBook_values",
     "search_creatorId": "documents.search_creatorId",
     "search_responsId": "documents.search_responsId",
@@ -146,6 +212,340 @@
     "search_execId": "documents.search_execId",
     "search_inboxUserId": "documents.search_inboxUserId",
     "search_confirmerId": "documents.search_confirmerId",
-    "no_data": "documents.no_data"
+    "no_data": "documents.no_data",
+    "new_document": "documents.new_document",
+    "externalNumber": "documents.externalNumber"
+  },
+  "reports": {
+    "report": "reports.report",
+    "search": "reports.search",
+    "new": "reports.new",
+    "view": "reports.view",
+    "download": "reports.download",
+    "add_params": "reports.add_params",
+    "upload_file": "reports.upload_file",
+    "select_file": "reports.select_file"
+  },
+  "ReportTemplate": {
+    "reportName": "ReportTemplate.reportName",
+    "group": "ReportTemplate.group",
+    "reportType": "ReportTemplate.reportType",
+    "fastPrint": "ReportTemplate.fastPrint",
+    "addWatermark": "ReportTemplate.addWatermark",
+    "reportCount": "ReportTemplate.reportCount",
+    "createDate": "ReportTemplate.createDate"
+  },
+  "ReportTemplateType": {
+    "COMMON": "ReportTemplateType.COMMON",
+    "PATTERN": "ReportTemplateType.PATTERN"
+  },
+  "ReportType": {
+    "XML": "ReportType.XML",
+    "PDF": "ReportType.PDF",
+    "XLS": "ReportType.XLS",
+    "DOC": "ReportType.DOC"
+  },
+  "nomenclatureNumbers": {
+    "nomenclatureNumber": "nomenclatureNumbers.nomenclatureNumber",
+    "search": "nomenclatureNumbers.search",
+    "new": "nomenclatureNumbers.new",
+    "cancel": "nomenclatureNumbers.cancel"
+  },
+  "NomenclatureNumber": {
+    "oName": "NomenclatureNumber.oName",
+    "numberPattern": "NomenclatureNumber.numberPattern",
+    "currentSequenceValue": "NomenclatureNumber.currentSequenceValue"
+  },
+  "MaterialResource": {
+    "nameMaterRes": "MaterialResource.nameMaterRes",
+    "type": "MaterialResource.type",
+    "countPersons": "MaterialResource.countPersons"
+  },
+  "MaterialResourceType": {
+    "PREMISES": "MaterialResourceType.PREMISES",
+    "EQUIPMENT": "MaterialResourceType.EQUIPMENT"
+  },
+  "resources": {
+    "name": "resources.name",
+    "createNew": "resources.createNew"
+  },
+  "premises": {
+    "name": "premises.name",
+    "createNew": "premises.createNew"
+  },
+  "Premises": {
+    "name": "Premises.name",
+    "createNew": "Premises.createNew",
+    "namePremises": "Premises.namePremises"
+  },
+  "fileStorage": {
+    "fileStorage": "fileStorage.fileStorage",
+    "new": "fileStorage.new"
+  },
+  "FileStorage": {
+    "descriptionFileStorage": "FileStorage.descriptionFileStorage",
+    "type": "FileStorage.type",
+    "priority": "FileStorage.priority",
+    "uri": "FileStorage.uri",
+    "readOnly": "FileStorage.readOnly",
+    "freeSpace": "FileStorage.freeSpace",
+    "createDate": "FileStorage.createDate"
+  },
+  "FileStorageType": {
+    "PRIMARY": "FileStorageType.PRIMARY",
+    "ARCHIVE": "FileStorageType.ARCHIVE"
+  },
+  "externalModule": {
+    "externalModule": "externalModule.externalModule",
+    "new": "externalModule.new"
+  },
+  "ExternalModule": {
+    "descriptionExternalModule": "ExternalModule.descriptionExternalModule",
+    "createDate": "ExternalModule.createDate",
+    "url": "ExternalModule.url",
+    "user_userFirstName": "ExternalModule.user_userFirstName",
+    "user_userLastName": "ExternalModule.user_userLastName",
+    "protocolType": "ExternalModule.protocolType",
+    "error": "ExternalModule.error",
+    "secretKey": "ExternalModule.secretKey"
+  },
+  "securityClassification": {
+    "securityClassification": "securityClassification.securityClassification",
+    "new": "securityClassification.new",
+    "dependencies": "securityClassification.dependencies"
+  },
+  "SecurityClassification": {
+    "gname": "SecurityClassification.gname",
+    "scDescription": "SecurityClassification.scDescription",
+    "group": "SecurityClassification.group",
+    "share": "SecurityClassification.share"
+  },
+  "filterField": {
+    "filterField": "filterField.filterField",
+    "new": "filterField.new"
+  },
+  "FilterField": {
+    "field": "FilterField.field",
+    "displayName": "FilterField.displayName",
+    "enableSorting": "FilterField.enableSorting",
+    "visible": "FilterField.visible",
+    "width": "FilterField.width",
+    "color": "FilterField.color"
+  },
+  "docFilter": {
+    "docFilter": "docFilter.docFilter",
+    "plus": "docFilter.plus",
+    "new": "docFilter.new"
+  },
+  "DocFilter": {
+    "oName": "DocFilter.oName",
+    "fields": "DocFilter.fields",
+    "positionMobile": "DocFilter.positionMobile",
+    "forMobile": "DocFilter.forMobile",
+    "positionRegistry": "DocFilter.positionRegistry",
+    "forRegistry": "DocFilter.forRegistry",
+    "positionDocument": "DocFilter.positionDocument",
+    "forDocument": "DocFilter.forDocument"
+  },
+  "CustomFilterItem": {
+    "field": "CustomFilterItem.field",
+    "fType": "CustomFilterItem.fType",
+    "condition": "CustomFilterItem.condition",
+    "value": "CustomFilterItem.value"
+  },
+  "sessions": {
+    "dateFrom": "sessions.dateFrom",
+    "dateTo": "sessions.dateTo",
+    "isActive": "sessions.isActive",
+    "closed_sessions": "sessions.closed_sessions"
+  },
+  "AuthSession": {
+    "expireDate": "AuthSession.expireDate",
+    "createDate": "AuthSession.createDate",
+    "updateDate": "AuthSession.updateDate",
+    "ip1": "AuthSession.ip1",
+    "ip2": "AuthSession.ip2",
+    "clientInfo": "AuthSession.clientInfo",
+    "deviceType": "AuthSession.deviceType"
+  },
+  "DeviceType": {
+    "ANDROID": "DeviceType.ANDROID",
+    "IOS": "DeviceType.IOS",
+    "WEB": "DeviceType.WEB"
+  },
+  "userPublicKeys": {
+    "actions": "userPublicKeys.actions",
+    "confirmate": "userPublicKeys.confirmate",
+    "prohibited": "userPublicKeys.prohibited"
+  },
+  "UserKeyData": {
+    "userId": "UserKeyData.userId",
+    "adminId": "UserKeyData.adminId",
+    "createDate": "UserKeyData.createDate",
+    "confirmDate": "UserKeyData.confirmDate",
+    "keyState": "UserKeyData.keyState"
+  },
+  "CertificateInfo": {
+    "serialNumber": "CertificateInfo.serialNumber",
+    "issuerDN": "CertificateInfo.issuerDN",
+    "subjectDN": "CertificateInfo.subjectDN",
+    "beforeDate": "CertificateInfo.beforeDate",
+    "afterDate": "CertificateInfo.afterDate"
+  },
+  "KeyState": {
+    "LOADED": "KeyState.LOADED",
+    "CONFIRM": "KeyState.CONFIRM",
+    "PROHIBITED": "KeyState.PROHIBITED",
+    "NO_FILE": "KeyState.NO_FILE"
+  },
+  "logs": {
+    "all_level": "logs.all_level",
+    "all_event": "logs.all_event",
+    "search_text": "logs.search_text",
+    "date_from": "logs.date_from",
+    "date_to": "logs.date_to"
+  },
+  "History": {
+    "createDate": "History.createDate",
+    "level": "History.level",
+    "key": "History.key",
+    "ip1": "History.ip1",
+    "ip2": "History.ip2",
+    "hasDetailData": "History.hasDetailData"
+  },
+  "HistoryLevel": {
+    "INFO": "HistoryLevel.INFO",
+    "WARNING": "HistoryLevel.WARNING",
+    "ERROR": "HistoryLevel.ERROR"
+  },
+  "TranslateBackend": {
+    "title": "TranslateBackend.title",
+    "upload_text": "TranslateBackend.upload_text",
+    "upload_button": "TranslateBackend.upload_button",
+    "upload_notification": "TranslateBackend.upload_notification",
+    "download_text": "TranslateBackend.download_text",
+    "download_button": "TranslateBackend.download_button"
+  },
+  "UploadFiles": {
+    "text": "UploadFiles.text",
+    "size_error": "UploadFiles.size_error"
+  },
+  "CryptValue": {
+    "title": "CryptValue.title",
+    "key": "CryptValue.key"
+  },
+  "License": {
+    "accountGroup": "License.accountGroup",
+    "account": "License.account",
+    "validFrom": "License.validFrom",
+    "validTo": "License.validTo",
+    "user": "License.user",
+    "userCount": "License.userCount",
+    "autoAssignment": "License.autoAssignment",
+    "autoAssignmentOrder": "License.autoAssignmentOrder"
+  },
+  "licenses": {
+    "title": "licenses.title",
+    "new": "licenses.new"
+  },
+  "UploadLicense": {
+    "title": "UploadLicense.title",
+    "file": "UploadLicense.file",
+    "autoAssignment": "UploadLicense.autoAssignment",
+    "autoAssignmentOrder": "UploadLicense.autoAssignmentOrder"
+  },
+  "handbooks": {
+    "system": "handbooks.system",
+    "user_books": "handbooks.user_books",
+    "search_handbook_placeholder": "handbooks.search_handbook_placeholder",
+    "search_value_placeholder": "handbooks.search_value_placeholder",
+    "add_handbook_tooltip": "handbooks.add_handbook_tooltip",
+    "add_value": "handbooks.add_value",
+    "add_value_tooltip": "handbooks.add_value_tooltip",
+    "select_or": "handbooks.select_or",
+    "create_handbook": "handbooks.create_handbook",
+    "no_values_text": "handbooks.no_values_text",
+    "add_value_text_button": "handbooks.add_value_text_button"
+  },
+  "CreateUpdateHandBookValue": {
+    "title": "CreateUpdateHandBookValue.title",
+    "user": "CreateUpdateHandBookValue.user",
+    "value": "CreateUpdateHandBookValue.value"
+  },
+  "CreateUpdateHandBook": {
+    "title": "CreateUpdateHandBook.title",
+    "general": "CreateUpdateHandBook.general",
+    "columns": "CreateUpdateHandBook.columns",
+    "accounts": "CreateUpdateHandBook.accounts",
+    "access": "CreateUpdateHandBook.access",
+    "column": "CreateUpdateHandBook.column",
+    "addColumn": "CreateUpdateHandBook.addColumn",
+    "accountsName": "CreateUpdateHandBook.accountsName",
+    "no_add_users": "CreateUpdateHandBook.no_add_users",
+    "add_users": "CreateUpdateHandBook.add_users"
+  },
+  "HandBook": {
+    "hBookName": "HandBook.hBookName",
+    "thriftURL": "HandBook.thriftURL",
+    "copyValue": "HandBook.copyValue",
+    "transportType": "HandBook.transportType",
+    "protocolType": "HandBook.protocolType"
+  },
+  "HBColumn": {
+    "oName": "HBColumn.oName",
+    "requiredColumn": "HBColumn.requiredColumn",
+    "searchable": "HBColumn.searchable",
+    "columnType": "HBColumn.columnType"
+  },
+  "HBColumnType": {
+    "TEXT": "HBColumnType.TEXT",
+    "NUMBER": "HBColumnType.NUMBER",
+    "USER_CHOICE": "HBColumnType.USER_CHOICE"
+  },
+  "Registry": {
+    "regName": "Registry.regName",
+    "regDescription": "Registry.regDescription",
+    "position": "Registry.position",
+    "viewRule": "Registry.viewRule",
+    "autoDownload": "Registry.autoDownload",
+    "userOrGrList": "Registry.userOrGrList"
+  },
+  "registries": {
+    "registr": "registries.registr",
+    "new": "registries.new"
+  },
+  "DocumentIconType": {
+    "ICON_DRAFT_tooltip": "DocumentIconType.ICON_DRAFT_tooltip",
+    "ICON_COMPLETE_CANCEL_tooltip": "DocumentIconType.ICON_COMPLETE_CANCEL_tooltip",
+    "ICON_COMPLETE_EDITED_tooltip": "DocumentIconType.ICON_COMPLETE_EDITED_tooltip",
+    "ICON_COMPLETE_tooltip": "DocumentIconType.ICON_COMPLETE_tooltip",
+    "ICON_IN_WORK_NO_MY_CANCEL_tooltip": "DocumentIconType.ICON_IN_WORK_NO_MY_CANCEL_tooltip",
+    "ICON_IN_WORK_NO_MY_EDITED_tooltip": "DocumentIconType.ICON_IN_WORK_NO_MY_EDITED_tooltip",
+    "ICON_IN_WORK_NO_MY_tooltip": "DocumentIconType.ICON_IN_WORK_NO_MY_tooltip",
+    "ICON_IN_WORK_EDITED_tooltip": "DocumentIconType.ICON_IN_WORK_EDITED_tooltip",
+    "ICON_IN_WORK_CANCELED_tooltip": "DocumentIconType.ICON_IN_WORK_CANCELED_tooltip",
+    "ICON_IN_WORK_tooltip": "DocumentIconType.ICON_IN_WORK_tooltip",
+    "ICON_IN_WORK_WARNING_EDITED_tooltip": "DocumentIconType.ICON_IN_WORK_WARNING_EDITED_tooltip",
+    "ICON_IN_WORK_WARNING_CANCELED_tooltip": "DocumentIconType.ICON_IN_WORK_WARNING_CANCELED_tooltip",
+    "ICON_IN_WORK_WARNING_tooltip": "DocumentIconType.ICON_IN_WORK_WARNING_tooltip",
+    "ICON_IN_WORK_ERROR_EDITED_tooltip": "DocumentIconType.ICON_IN_WORK_ERROR_EDITED_tooltip",
+    "ICON_IN_WORK_ERROR_CANCELED_tooltip": "DocumentIconType.ICON_IN_WORK_ERROR_CANCELED_tooltip",
+    "ICON_IN_WORK_ERROR_tooltip": "DocumentIconType.ICON_IN_WORK_ERROR_tooltip",
+    "ICON_ARCHIVE_tooltip": "DocumentIconType.ICON_ARCHIVE_tooltip",
+    "ICON_ERROR_tooltip": "DocumentIconType.ICON_ERROR_tooltip"
+  },
+  "DocRelationType": {
+    "PARENT": "DocRelationType.PARENT",
+    "CHILD": "DocRelationType.CHILD",
+    "OTHER": "DocRelationType.OTHER"
+  },
+  "JIRA_TIME": {
+    "m": "JIRA_TIME.m",
+    "h": "JIRA_TIME.h",
+    "d": "JIRA_TIME.d",
+    "w": "JIRA_TIME.w",
+    "M": "JIRA_TIME.M",
+    "q": "JIRA_TIME.q",
+    "y": "JIRA_TIME.y"
   }
 }

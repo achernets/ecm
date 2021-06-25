@@ -46,32 +46,31 @@
     "home": "Домашняя страница",
     "documents": "Документи",
     "users": "Пользователи",
-    "administration": {
-      "title": "Администрирование",
-      "logs": "Логи",
-      "premises": "Помещения",
-      "fileStorages": "Файловые хранилища",
-      "externalModules": "BPM-модули",
-      "securityClassifications": "Грифы",
-      "reports": "Отчеты",
-      "docNumbers": "Номенклатурные номера",
-      "fields": "Поля",
-      "filters": "Представления",
-      "resources": "Ресурсы",
-      "sessions": "Сессии",
-      "userPublicKeys": "Ключи",
-      "translate": "Переводы",
-      "security": "Безопасность",
-      "bpm": "BPM",
-      "interface": "Интерфейс",
-      "system": "Системные",
-      "calendar": "Календарь",
-      "cryptValue": "Шифратор",
-      "licenses": "Лицензии",
-      "usersPanel": "Пользователи",
-      "handbooks": "Справочники",
-      "registries": "Реестры"
-    }
+    "administration_title": "Администрирование",
+    "administration_logs": "Логи",
+    "administration_premises": "Помещения",
+    "administration_fileStorages": "Файловые хранилища",
+    "administration_externalModules": "BPM-модули",
+    "administration_securityClassifications": "Грифы",
+    "administration_reports": "Отчеты",
+    "administration_docNumbers": "Номенклатурные номера",
+    "administration_fields": "Поля",
+    "administration_filters": "Представления",
+    "administration_resources": "Ресурсы",
+    "administration_sessions": "Сессии",
+    "administration_userPublicKeys": "Ключи",
+    "administration_translate": "Переводы",
+    "administration_security": "Безопасность",
+    "administration_bpm": "BPM",
+    "administration_interface": "Интерфейс",
+    "administration_system": "Системные",
+    "administration_calendar": "Календарь",
+    "administration_cryptValue": "Шифратор",
+    "administration_licenses": "Лицензии",
+    "administration_usersPanel": "Пользователи",
+    "administration_handbooks": "Справочники",
+    "administration_registries": "Реестры",
+    "administration_orgStructures": "Орг. структура"
   },
   "form": {
     "enter_fio": "Введите ФИО",
@@ -89,13 +88,14 @@
   "login": {
     "enter": "Зайти",
     "help": "Нужна помощь?",
-    "forgot": "Забыли пароль",
+    "forgot": "Забыл пароль",
     "locale_not_found": "Файл с языком не найдет"
   },
   "tooltips": {
-    "originalUser": {
-      "title": "Выполнил действие замещающий"
-    }
+    "originalUser_title": "Выполнил действие замещающий",
+    "create_custom_filter": "Сохранить настройки фильтрации",
+    "settings_table_and_filters": "Настройка фильтров и колонок таблицы",
+    "user_has_been_stage": "Пользователь уже добавлен на этап"
   },
   "ResetPassword": {
     "title": "Сбросить пароль",
@@ -160,7 +160,7 @@
   "users": {
     "usersWithoutAccount": "Без аккаунта",
     "search_user": "По пользователю",
-    "search_user_pl": "Введите ФИО",
+    "search_user_pl": "Минимум %{n} символа",
     "search_email": "По email",
     "search_email_pl": "Введите email",
     "search_position": "По должности",
@@ -186,6 +186,7 @@
     "search_by_text": "Поиск по тексту",
     "search_docName": "Краткое содержание",
     "search_contName": "Поля документа",
+    "search_docNameIsSearchCryptDoc": "Краткое содержание в зашифрованных и незашифрованных",
     "search_S_LIKE": "Точный поисковый запрос",
     "search_S_ANY": "Любое слово запроса",
     "search_S_ALL": "Все слова запроса",
@@ -196,12 +197,14 @@
     "search_by_date": "Поиск по дате",
     "search_createDate": "По дате создания",
     "search_registrationDate": "По дате регистрации",
+    "search_externalRegDate": "По исходящей регистрационной дате",
     "search_documentDeadlineDate": "По контрольной дате",
     "search_dateFrom": "с",
     "search_dateTo": "по",
     "search_by_users": "Поиск по пользователю",
     "search_by_handBooks": "Поиск по cправочнику",
-    "search_handBook_and_column": "Выберите справочник и колонку",
+    "search_handBook": "Выберите справочник",
+    "search_handBook_column": "Выберите колонку",
     "search_handBook_values": "Введите значение",
     "search_creatorId": "Автор",
     "search_responsId": "Ответственный",
@@ -297,14 +300,11 @@
     "new": "Создать BPM-модуль"
   },
   "ExternalModule": {
-    "nameExternalModule": "Название",
     "descriptionExternalModule": "Описание",
     "createDate": "Дата создания",
     "url": "Url",
-    "user": {
-      "userFirstName": "Пользователь",
-      "userLastName": "Название модуля"
-    },
+    "user_userFirstName": "Пользователь",
+    "user_userLastName": "Название модуля",
     "protocolType": "Тип протокола",
     "error": "Ошибка",
     "secretKey": "Секретный ключ"
@@ -375,7 +375,7 @@
   },
   "userPublicKeys": {
     "actions": "Действие",
-    "confirmate": " Подтвердить сертификат",
+    "confirmate": "Подтвердить сертификат",
     "prohibited": "Запртетить сертификат"
   },
   "UserKeyData": {
@@ -402,10 +402,8 @@
     "all_level": "Все события",
     "all_event": "Все ключи",
     "search_text": "Введите номер документа",
-    "date": {
-      "from": "Дата с",
-      "to": "Дата по"
-    }
+    "date_from": "Дата с",
+    "date_to": "Дата по"
   },
   "History": {
     "createDate": "Дата создания",
