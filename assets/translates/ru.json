@@ -242,8 +242,8 @@
   "ReportType": {
     "XML": "Генерировать отчёт в XML",
     "PDF": "Генерировать отчёт в PDF",
-    "XLS": "Генерировать отчёт в XLS",
-    "DOC": "Генерировать отчёт в DOC"
+    "XLS": "Генерировать отчёт в XLSX",
+    "DOC": "Генерировать отчёт в DOCX"
   },
   "nomenclatureNumbers": {
     "nomenclatureNumber": "Номенклатурный номер",
@@ -515,24 +515,24 @@
     "new": "Создать реестр"
   },
   "DocumentIconType": {
-    "ICON_DRAFT_tooltip": "ICON_DRAFT",
-    "ICON_COMPLETE_CANCEL_tooltip": "ICON_COMPLETE_CANCEL",
-    "ICON_COMPLETE_EDITED_tooltip": "ICON_COMPLETE_EDITED",
-    "ICON_COMPLETE_tooltip": "ICON_COMPLETE",
-    "ICON_IN_WORK_NO_MY_CANCEL_tooltip": "ICON_IN_WORK_NO_MY_CANCEL",
-    "ICON_IN_WORK_NO_MY_EDITED_tooltip": "ICON_IN_WORK_NO_MY_EDITED",
-    "ICON_IN_WORK_NO_MY_tooltip": "ICON_IN_WORK_NO_MY",
-    "ICON_IN_WORK_EDITED_tooltip": "ICON_IN_WORK_EDITED",
-    "ICON_IN_WORK_CANCELED_tooltip": "ICON_IN_WORK_CANCELED",
-    "ICON_IN_WORK_tooltip": "ICON_IN_WORK",
-    "ICON_IN_WORK_WARNING_EDITED_tooltip": "ICON_IN_WORK_WARNING_EDITED",
-    "ICON_IN_WORK_WARNING_CANCELED_tooltip": "ICON_IN_WORK_WARNING_CANCELED",
-    "ICON_IN_WORK_WARNING_tooltip": "ICON_IN_WORK_WARNING",
-    "ICON_IN_WORK_ERROR_EDITED_tooltip": "ICON_IN_WORK_ERROR_EDITED",
-    "ICON_IN_WORK_ERROR_CANCELED_tooltip": "ICON_IN_WORK_ERROR_CANCELED",
-    "ICON_IN_WORK_ERROR_tooltip": "ICON_IN_WORK_ERROR",
-    "ICON_ARCHIVE_tooltip": "ICON_ARCHIVE",
-    "ICON_ERROR_tooltip": "ICON_ERROR"
+    "ICON_DRAFT_tooltip": "Проект документа",
+    "ICON_COMPLETE_CANCEL_tooltip": "Документ отменён",
+    "ICON_COMPLETE_EDITED_tooltip": "Документ отменён (внесены изменения)",
+    "ICON_COMPLETE_tooltip": "Документ исполнен",
+    "ICON_IN_WORK_NO_MY_CANCEL_tooltip": "Документ отменён",
+    "ICON_IN_WORK_NO_MY_EDITED_tooltip": "Документ в работе, участие не требуется (внесены изменения)",
+    "ICON_IN_WORK_NO_MY_tooltip": "Документ в работе, участие не требуется",
+    "ICON_IN_WORK_EDITED_tooltip": "Документ требует Вашего участия (внесены изменения)",
+    "ICON_IN_WORK_CANCELED_tooltip": "Документ отменён",
+    "ICON_IN_WORK_tooltip": "Документ требует Вашего участия",
+    "ICON_IN_WORK_WARNING_EDITED_tooltip": "Приближается конечный срок исполнения по документу, требующему Вашего участия (внесены изменения)",
+    "ICON_IN_WORK_WARNING_CANCELED_tooltip": "Документ отменён",
+    "ICON_IN_WORK_WARNING_tooltip": "Приближается конечный срок исполнения по документу, требующему Вашего участия",
+    "ICON_IN_WORK_ERROR_EDITED_tooltip": "Наступил конечный срок по документу, требующему Вашего участия (внесены изменения)",
+    "ICON_IN_WORK_ERROR_CANCELED_tooltip": "Документ отменён",
+    "ICON_IN_WORK_ERROR_tooltip": "Наступил конечный срок по документу, требующему Вашего участия",
+    "ICON_ARCHIVE_tooltip": "Документ в архиве",
+    "ICON_ERROR_tooltip": "Документ в стоп листе"
   },
   "DocRelationType": {
     "PARENT": "Основной документ",
