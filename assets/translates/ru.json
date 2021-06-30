@@ -297,9 +297,11 @@
   },
   "externalModule": {
     "externalModule": "BPM-модуль",
-    "new": "Создать BPM-модуль"
+    "new": "Создать BPM-модуль",
+    "pingExternalModule": "Внешний модуль отвечает на запрос"
   },
   "ExternalModule": {
+    "nameExternalModule": "Название",
     "descriptionExternalModule": "Описание",
     "createDate": "Дата создания",
     "url": "Url",
@@ -547,5 +549,8 @@
     "M": "Месяц",
     "q": "Квартал",
     "y": "Год"
+  },
+  "notification": {
+    "pingExternalModule": "Внешний модуль отвечает на запрос"
   }
 }

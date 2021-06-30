@@ -297,9 +297,11 @@
   },
   "externalModule": {
     "externalModule": "externalModule.externalModule",
-    "new": "externalModule.new"
+    "new": "externalModule.new",
+    "pingExternalModule": "externalModule.pingExternalModule"
   },
   "ExternalModule": {
+    "nameExternalModule": "ExternalModule.nameExternalModule",
     "descriptionExternalModule": "ExternalModule.descriptionExternalModule",
     "createDate": "ExternalModule.createDate",
     "url": "ExternalModule.url",
@@ -547,5 +549,8 @@
     "M": "JIRA_TIME.M",
     "q": "JIRA_TIME.q",
     "y": "JIRA_TIME.y"
+  },
+  "notification": {
+    "pingExternalModule": "notification.pingExternalModule"
   }
 }
