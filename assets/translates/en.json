@@ -298,7 +298,8 @@
   "externalModule": {
     "externalModule": "externalModule.externalModule",
     "new": "externalModule.new",
-    "pingExternalModule": "externalModule.pingExternalModule"
+    "pingExternalModule": "externalModule.pingExternalModule",
+    "ping": "externalModule.ping"
   },
   "ExternalModule": {
     "nameExternalModule": "ExternalModule.nameExternalModule",
@@ -497,12 +498,22 @@
     "oName": "HBColumn.oName",
     "requiredColumn": "HBColumn.requiredColumn",
     "searchable": "HBColumn.searchable",
-    "columnType": "HBColumn.columnType"
+    "columnType": "HBColumn.columnType",
+    "orderRule": "HBColumn.orderRule",
+    "uniqVal": "HBColumn.uniqVal",
+    "depHandBook": "HBColumn.depHandBook"
   },
   "HBColumnType": {
     "TEXT": "HBColumnType.TEXT",
     "NUMBER": "HBColumnType.NUMBER",
-    "USER_CHOICE": "HBColumnType.USER_CHOICE"
+    "USER_CHOICE": "HBColumnType.USER_CHOICE",
+    "GLOBAL_TEXT": "HBColumnType.GLOBAL_TEXT",
+    "HAND_BOOK": "HBColumnType.HAND_BOOK"
+  },
+  "HBColumnOrderType": {
+    "CREATE_DATE": "HBColumnOrderType.CREATE_DATE",
+    "ALPHABETICAL": "HBColumnOrderType.ALPHABETICAL",
+    "NUMERIC": "HBColumnOrderType.NUMERIC"
   },
   "Registry": {
     "regName": "Registry.regName",

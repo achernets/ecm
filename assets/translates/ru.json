@@ -298,7 +298,8 @@
   "externalModule": {
     "externalModule": "BPM-модуль",
     "new": "Создать BPM-модуль",
-    "pingExternalModule": "Внешний модуль отвечает на запрос"
+    "pingExternalModule": "Внешний модуль отвечает на запрос",
+    "ping": "Ping"
   },
   "ExternalModule": {
     "nameExternalModule": "Название",
@@ -497,12 +498,22 @@
     "oName": "Название",
     "requiredColumn": "Обязательное",
     "searchable": "Отображать для поиска",
-    "columnType": "Тип"
+    "columnType": "Тип",
+    "orderRule": "Сортировка",
+    "uniqVal": "Уникальное значение",
+    "depHandBook": "Справочник"
   },
   "HBColumnType": {
     "TEXT": "Текст",
     "NUMBER": "Номер",
-    "USER_CHOICE": "Пользователь"
+    "USER_CHOICE": "Пользователь",
+    "GLOBAL_TEXT": "Текст без перевода",
+    "HAND_BOOK": "Справочник"
+  },
+  "HBColumnOrderType": {
+    "CREATE_DATE": "По дате создания",
+    "ALPHABETICAL": "По алфавиту",
+    "NUMERIC": "По порядку"
   },
   "Registry": {
     "regName": "Название",
