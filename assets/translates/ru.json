@@ -471,7 +471,8 @@
     "no_values_text": "У справочника ещё нет значений",
     "add_value_text_button": "cоздать значение справочника",
     "edit_tooltip": "Редактировать справочник",
-    "remove_tooltip": "Удалить справочник"
+    "remove_tooltip": "Удалить справочник",
+    "values_not_found": "Нет значений по указанным параметрам"
   },
   "CreateUpdateHandBookValue": {
     "title": "Добавить/Редактировать значение",

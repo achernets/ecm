@@ -471,7 +471,8 @@
     "no_values_text": "handbooks.no_values_text",
     "add_value_text_button": "handbooks.add_value_text_button",
     "edit_tooltip": "handbooks.edit_tooltip",
-    "remove_tooltip": "handbooks.remove_tooltip"
+    "remove_tooltip": "handbooks.remove_tooltip",
+    "values_not_found": "handbooks.values_not_found"
   },
   "CreateUpdateHandBookValue": {
     "title": "CreateUpdateHandBookValue.title",
