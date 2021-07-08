@@ -36,7 +36,8 @@
     "param": "Параметр %{n}",
     "more_number": "Ещё %{n}",
     "upload": "Загрузить",
-    "all": "Все"
+    "all": "Все",
+    "all_on": "Включитить все"
   },
   "navigations": {
     "login": "Авторизация",
@@ -458,17 +459,19 @@
     "autoAssignmentOrder": "Приоритет"
   },
   "handbooks": {
+    "handbooks": "Справочники",
+    "create": "Создать справочник",
     "system": "Системные",
     "user_books": "Пользовательские",
     "search_handbook_placeholder": "Введите название справочника",
-    "search_value_placeholder": "Введите значение справочника",
-    "add_handbook_tooltip": "Создать значение справочника",
     "add_value": "Добавить",
     "add_value_tooltip": "Создать значение справочника",
     "select_or": "Выберите или",
     "create_handbook": "создайте справочник",
     "no_values_text": "У справочника ещё нет значений",
-    "add_value_text_button": "cоздать значение справочника"
+    "add_value_text_button": "cоздать значение справочника",
+    "edit_tooltip": "Редактировать справочник",
+    "remove_tooltip": "Удалить справочник"
   },
   "CreateUpdateHandBookValue": {
     "title": "Добавить/Редактировать значение",
@@ -483,9 +486,8 @@
     "access": "Доступ",
     "column": "Колонка %{index}",
     "addColumn": "Добавить колонку",
-    "accountsName": "Название аккаунта",
-    "no_add_users": "Нет добавленных пользователей",
-    "add_users": "добавить пользователей"
+    "name": "Название аккаунта",
+    "other_settings": "Другие настройки"
   },
   "HandBook": {
     "hBookName": "Название %{name}",
@@ -501,7 +503,8 @@
     "columnType": "Тип",
     "orderRule": "Сортировка",
     "uniqVal": "Уникальное значение",
-    "depHandBook": "Справочник"
+    "depHandBook": "Справочник",
+    "depColumnId": "Колонка"
   },
   "HBColumnType": {
     "TEXT": "Текст",

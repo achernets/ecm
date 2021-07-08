@@ -36,7 +36,8 @@
     "param": "common.param",
     "more_number": "common.more_number",
     "upload": "common.upload",
-    "all": "common.all"
+    "all": "common.all",
+    "all_on": "common.all_on"
   },
   "navigations": {
     "login": "navigations.login",
@@ -458,17 +459,19 @@
     "autoAssignmentOrder": "UploadLicense.autoAssignmentOrder"
   },
   "handbooks": {
+    "handbooks": "handbooks.handbooks",
+    "create": "handbooks.create",
     "system": "handbooks.system",
     "user_books": "handbooks.user_books",
     "search_handbook_placeholder": "handbooks.search_handbook_placeholder",
-    "search_value_placeholder": "handbooks.search_value_placeholder",
-    "add_handbook_tooltip": "handbooks.add_handbook_tooltip",
     "add_value": "handbooks.add_value",
     "add_value_tooltip": "handbooks.add_value_tooltip",
     "select_or": "handbooks.select_or",
     "create_handbook": "handbooks.create_handbook",
     "no_values_text": "handbooks.no_values_text",
-    "add_value_text_button": "handbooks.add_value_text_button"
+    "add_value_text_button": "handbooks.add_value_text_button",
+    "edit_tooltip": "handbooks.edit_tooltip",
+    "remove_tooltip": "handbooks.remove_tooltip"
   },
   "CreateUpdateHandBookValue": {
     "title": "CreateUpdateHandBookValue.title",
@@ -483,9 +486,8 @@
     "access": "CreateUpdateHandBook.access",
     "column": "CreateUpdateHandBook.column",
     "addColumn": "CreateUpdateHandBook.addColumn",
-    "accountsName": "CreateUpdateHandBook.accountsName",
-    "no_add_users": "CreateUpdateHandBook.no_add_users",
-    "add_users": "CreateUpdateHandBook.add_users"
+    "name": "CreateUpdateHandBook.name",
+    "other_settings": "CreateUpdateHandBook.other_settings"
   },
   "HandBook": {
     "hBookName": "HandBook.hBookName",
@@ -501,7 +503,8 @@
     "columnType": "HBColumn.columnType",
     "orderRule": "HBColumn.orderRule",
     "uniqVal": "HBColumn.uniqVal",
-    "depHandBook": "HBColumn.depHandBook"
+    "depHandBook": "HBColumn.depHandBook",
+    "depColumnId": "HBColumn.depColumnId"
   },
   "HBColumnType": {
     "TEXT": "HBColumnType.TEXT",
