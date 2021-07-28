@@ -567,5 +567,11 @@
   },
   "notification": {
     "pingExternalModule": "Внешний модуль отвечает на запрос"
+  },
+  "DocPatternStageActionType": {
+    "VIEW": "Ознакомление",
+    "CONFIRM": "Согласование",
+    "SIGN": "Подписание",
+    "PERFORM": "Выполнение"
   }
 }

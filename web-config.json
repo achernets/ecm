@@ -63,5 +63,6 @@
     "SELECT_UMCA",
     "TOKEN"
   ],
-  "USE_ACTION_LINK_ON_BUTTON": true
+  "USE_ACTION_LINK_ON_BUTTON": true,
+  "USER_EMAIL_REQUIRED": true
 }

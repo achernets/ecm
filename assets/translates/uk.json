@@ -567,5 +567,11 @@
   },
   "notification": {
     "pingExternalModule": "notification.pingExternalModule"
+  },
+  "DocPatternStageActionType": {
+    "VIEW": "DocPatternStageActionType.VIEW",
+    "CONFIRM": "DocPatternStageActionType.CONFIRM",
+    "SIGN": "DocPatternStageActionType.SIGN",
+    "PERFORM": "DocPatternStageActionType.PERFORM"
   }
 }
