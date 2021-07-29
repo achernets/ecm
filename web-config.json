@@ -64,5 +64,9 @@
     "TOKEN"
   ],
   "USE_ACTION_LINK_ON_BUTTON": true,
-  "USER_EMAIL_REQUIRED": true
+  "USER_EMAIL_REQUIRED": true,
+  "MOBILE_STORE": {
+    "APPLE": "itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/tclu27ndkh0zwor/manifest.plist",
+    "ANDROID": "https://play.google.com/store/apps/details?id=com.kaz.documents.prod"
+  }
 }
