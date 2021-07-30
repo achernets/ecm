@@ -125,18 +125,6 @@
 	},
 	{
 		"issuerCNs": [
-			"КНЕДП АТ \"ПУМБ\""
-		],
-		"address": "pki.pumb.ua",
-		"ocspAccessPointAddress": "pki.pumb.ua/services/ocsp/",
-		"ocspAccessPointPort": "80",
-		"cmpAddress": "pki.pumb.ua",
-		"tspAddress": "pki.pumb.ua",
-		"tspAddressPort": "80",
-		"directAccess": true
-	},
-	{
-		"issuerCNs": [
 			"КНЕДП ТОВ \"ДЕПОЗИТ САЙН\"",
 			"QTSP of the DEPOSIT SIGN LLC"
 		],
@@ -150,8 +138,6 @@
 	},
 	{
 		"issuerCNs": [
-			"КНЕДП “ЦСК Збройних Сил України”",
-			"QTSP “CSK of Armed Forces of Ukraine”",
 			"Акредитований Центр сертифікації ключів Збройних Сил",
 			"Акредитований центр сертифікації ключів Збройних Сил",
 			"Armed Forces of Ukraine Certificate authority"
@@ -214,7 +200,6 @@
 	},
 	{
 		"issuerCNs": [
-			"КНЕДП ТОВ \"Центр сертифікації ключів \"Україна\"",
 			"АЦСК ТОВ \"Центр сертифікації ключів \"Україна\"",
 			"ТОВ \"Центр сертифікації ключів \"Україна\""
 		],
@@ -276,11 +261,11 @@
 		"address": "ca.gp.gov.ua",
 		"ocspAccessPointAddress": "ca.gp.gov.ua/ocsp",
 		"ocspAccessPointPort": "80",
-		"cmpAddress": "",
+		"cmpAddress": "ca.gp.gov.ua/cmp",
 		"tspAddress": "ca.gp.gov.ua/tsp",
 		"tspAddressPort": "80",
 		"certsInKey": true,
-		"cmpCompatibility": 0
+		"cmpCompatibility": 1
 	},
 	{
 		"issuerCNs": [
@@ -298,17 +283,14 @@
 	},
 	{
 		"issuerCNs": [
-			"КНЕДП \"eSign\" ТОВ \"Ілайф\""
+			"Засвідчувальний центр Національного банку України"
 		],
-		"address": "ca.e-life.com.ua",
-		"ocspAccessPointAddress": "ocsp.e-life.com.ua",
+		"address": "zc.bank.gov.ua",
+		"ocspAccessPointAddress": "zc.bank.gov.ua/queries/ocsp/",
 		"ocspAccessPointPort": "80",
 		"cmpAddress": "",
-		"tspAddress": "tsp.e-life.com.ua",
-		"tspAddressPort": "80",
-		"certsInKey": false,
-		"directAccess": false,
-		"cmpCompatibility": 0
+		"tspAddress": "",
+		"tspAddressPort": ""
 	},
 	{
 		"issuerCNs": [
@@ -320,16 +302,5 @@
 		"cmpAddress": "",
 		"tspAddress": "",
 		"tspAddressPort": "80"
-	},
-	{
-		"issuerCNs": [
-			"Засвідчувальний центр Національного банку України"
-		],
-		"address": "zc.bank.gov.ua",
-		"ocspAccessPointAddress": "zc.bank.gov.ua/queries/ocsp/",
-		"ocspAccessPointPort": "80",
-		"cmpAddress": "",
-		"tspAddress": "",
-		"tspAddressPort": ""
 	}
 ]
