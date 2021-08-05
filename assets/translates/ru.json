@@ -52,6 +52,7 @@
     "administration_premises": "Помещения",
     "administration_fileStorages": "Файловые хранилища",
     "administration_externalModules": "BPM-модули",
+    "administration_BPM": "BPM-процесс",
     "administration_securityClassifications": "Грифы",
     "administration_reports": "Отчеты",
     "administration_docNumbers": "Номенклатурные номера",

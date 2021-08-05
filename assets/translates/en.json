@@ -52,6 +52,7 @@
     "administration_premises": "navigations.administration_premises",
     "administration_fileStorages": "navigations.administration_fileStorages",
     "administration_externalModules": "navigations.administration_externalModules",
+    "administration_BPM": "navigations.administration_BPM",
     "administration_securityClassifications": "navigations.administration_securityClassifications",
     "administration_reports": "navigations.administration_reports",
     "administration_docNumbers": "navigations.administration_docNumbers",
