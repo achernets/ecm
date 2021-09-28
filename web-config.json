@@ -68,5 +68,6 @@
   "MOBILE_STORE": {
     "APPLE": "itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/tclu27ndkh0zwor/manifest.plist",
     "ANDROID": "https://play.google.com/store/apps/details?id=com.kaz.documents.prod"
-  }
+  },
+  "STAGE_LEAD_TIME": "1d"
 }
