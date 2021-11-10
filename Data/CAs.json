@@ -1,21 +1,6 @@
 [
 	{
 		"issuerCNs": [
-			"АЦСК АТ КБ «ПРИВАТБАНК»",
-			"АЦСК ПАТ КБ «ПРИВАТБАНК»",
-			"АЦСК «ПРИВАТБАНК»"
-		],
-		"address": "acsk.privatbank.ua",
-		"ocspAccessPointAddress": "acsk.privatbank.ua/services/ocsp/",
-		"ocspAccessPointPort": "80",
-		"cmpAddress": "acsk.privatbank.ua",
-		"tspAddress": "acsk.privatbank.ua",
-		"tspAddressPort": "80",
-		"directAccess": true,
-		"qscdSNInCert": true
-	},
-	{
-		"issuerCNs": [
 			"КНЕДП - ІДД ДПС",
 			"Акредитований центр сертифікації ключів ІДД ДФС",
 			"Акредитований центр сертифікації ключів ІДД Міндоходів",
@@ -101,6 +86,21 @@
 	},
 	{
 		"issuerCNs": [
+			"АЦСК АТ КБ «ПРИВАТБАНК»",
+			"АЦСК ПАТ КБ «ПРИВАТБАНК»",
+			"АЦСК «ПРИВАТБАНК»"
+		],
+		"address": "acsk.privatbank.ua",
+		"ocspAccessPointAddress": "acsk.privatbank.ua/services/ocsp/",
+		"ocspAccessPointPort": "80",
+		"cmpAddress": "acsk.privatbank.ua",
+		"tspAddress": "acsk.privatbank.ua",
+		"tspAddressPort": "80",
+		"directAccess": true,
+		"qscdSNInCert": true
+	},
+	{
+		"issuerCNs": [
 			"Акредитований центр сертифікації ключів АТ \"Альфа-Банк\""
 		],
 		"address": "ca.alfabank.kiev.ua",
@@ -125,6 +125,18 @@
 	},
 	{
 		"issuerCNs": [
+			"КНЕДП АТ \"ПУМБ\""
+		],
+		"address": "pki.pumb.ua",
+		"ocspAccessPointAddress": "pki.pumb.ua/services/ocsp/",
+		"ocspAccessPointPort": "80",
+		"cmpAddress": "pki.pumb.ua",
+		"tspAddress": "pki.pumb.ua",
+		"tspAddressPort": "80",
+		"directAccess": true
+	},
+	{
+		"issuerCNs": [
 			"КНЕДП ТОВ \"ДЕПОЗИТ САЙН\"",
 			"QTSP of the DEPOSIT SIGN LLC"
 		],
@@ -138,6 +150,22 @@
 	},
 	{
 		"issuerCNs": [
+			"КНЕДП ТОВ \"Вчасно Сервіс\"",
+			"QTSP \"VCHASNO SERVICE\" LLC"
+		],
+		"address": "ca.vchasno.ua",
+		"ocspAccessPointAddress": "ca.vchasno.ua/services/ocsp/",
+		"ocspAccessPointPort": "80",
+		"cmpAddress": "ca.vchasno.ua",
+		"tspAddress": "ca.vchasno.ua/services/tsp/dstu/",
+		"tspAddressPort": "80",
+		"directAccess": true,
+		"qscdSNInCert": true
+	},
+	{
+		"issuerCNs": [
+			"КНЕДП “ЦСК Збройних Сил України”",
+			"QTSP “CSK of Armed Forces of Ukraine”",
 			"Акредитований Центр сертифікації ключів Збройних Сил",
 			"Акредитований центр сертифікації ключів Збройних Сил",
 			"Armed Forces of Ukraine Certificate authority"
@@ -200,6 +228,7 @@
 	},
 	{
 		"issuerCNs": [
+			"КНЕДП ТОВ \"Центр сертифікації ключів \"Україна\"",
 			"АЦСК ТОВ \"Центр сертифікації ключів \"Україна\"",
 			"ТОВ \"Центр сертифікації ключів \"Україна\""
 		],
@@ -241,6 +270,7 @@
 	},
 	{
 		"issuerCNs": [
+			"КНЕДП ЦСК АТ «Ощадбанк»",
 			"Акредитований центр сертифікації ключів АТ \"Ощадбанк\""
 		],
 		"address": "ca.oschadbank.ua",
@@ -265,7 +295,7 @@
 		"tspAddress": "ca.gp.gov.ua/tsp",
 		"tspAddressPort": "80",
 		"certsInKey": true,
-		"cmpCompatibility": 1
+		"cmpCompatibility": 3
 	},
 	{
 		"issuerCNs": [
@@ -283,6 +313,35 @@
 	},
 	{
 		"issuerCNs": [
+			"КНЕДП \"eSign\" ТОВ \"Ілайф\""
+		],
+		"address": "ca.e-life.com.ua",
+		"ocspAccessPointAddress": "ocsp.e-life.com.ua",
+		"ocspAccessPointPort": "80",
+		"cmpAddress": "cmp.e-life.com.ua/api/PKI/CMP",
+		"tspAddress": "tsp.e-life.com.ua",
+		"tspAddressPort": "80",
+		"certsInKey": false,
+		"directAccess": true,
+		"cmpCompatibility": 1
+	},
+	{
+		"issuerCNs": [
+			"КНЕДП АТ \"БАНК АЛЬЯНС\"",
+			"QTSP-RSA of JSC \"Bank Alliance\"",
+			"QTSP-ECDSA of JSC \"Bank Alliance\""
+		],
+		"address": "ca.bankalliance.ua",
+		"ocspAccessPointAddress": "ca.bankalliance.ua/ocsp",
+		"ocspAccessPointPort": "80",
+		"cmpAddress": "ca.bankalliance.ua/cmp",
+		"tspAddress": "ca.bankalliance.ua/tsp",
+		"tspAddressPort": "80",
+		"certsInKey": true,
+		"cmpCompatibility": 3
+	},
+	{
+		"issuerCNs": [
 			"Засвідчувальний центр Національного банку України"
 		],
 		"address": "zc.bank.gov.ua",
@@ -291,16 +350,5 @@
 		"cmpAddress": "",
 		"tspAddress": "",
 		"tspAddressPort": ""
-	},
-	{
-		"issuerCNs": [
-			"ЦСК ПуАТ \"КБ \"АКОРДБАНК\""
-		],
-		"address": "ca.accordbank.com.ua",
-		"ocspAccessPointAddress": "ca.accordbank.com.ua/public/ocsp",
-		"ocspAccessPointPort": "80",
-		"cmpAddress": "",
-		"tspAddress": "",
-		"tspAddressPort": "80"
 	}
 ]
