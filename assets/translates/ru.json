@@ -574,5 +574,18 @@
     "CONFIRM": "Согласование",
     "SIGN": "Подписание",
     "PERFORM": "Выполнение"
+  },
+  "UserType": {
+    "CHIEF": "Руководитель",
+    "DEPUTY": "Заместитель",
+    "EMPLOYEE": "Сотрудник",
+    "SYSTEM": "Системный",
+    "TECHNICAL": "Технический"
+  },
+  "AttachmentExtStatus": {
+    "PRIMARY": "Основной",
+    "SECONDARY": "Приложение",
+    "CARD": "в карточку",
+    "CONTENT": "в контент айтем"
   }
 }

@@ -574,5 +574,18 @@
     "CONFIRM": "DocPatternStageActionType.CONFIRM",
     "SIGN": "DocPatternStageActionType.SIGN",
     "PERFORM": "DocPatternStageActionType.PERFORM"
+  },
+  "UserType": {
+    "CHIEF": "UserType.CHIEF",
+    "DEPUTY": "UserType.DEPUTY",
+    "EMPLOYEE": "UserType.EMPLOYEE",
+    "SYSTEM": "UserType.SYSTEM",
+    "TECHNICAL": "UserType.TECHNICAL"
+  },
+  "AttachmentExtStatus": {
+    "PRIMARY": "AttachmentExtStatus.PRIMARY",
+    "SECONDARY": "AttachmentExtStatus.SECONDARY",
+    "CARD": "AttachmentExtStatus.CARD",
+    "CONTENT": "AttachmentExtStatus.CONTENT"
   }
 }
