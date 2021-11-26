@@ -13,12 +13,12 @@
   ],
   "START_YEAR": 2018,
   "THRIFT": {
-    "URL": "https://qa.almexecm.com:8443",
-    "CORE": "kaz-server-almexecm-qa",
-    "CHAT": "chat-server-almexecm-qa",
-    "AVATAR": "avatar-server-almexecm-qa"
+    "URL": "https://dev3.almexecm.com:8443",
+    "CORE": "kaz-server-dev1MSSQL",
+    "CHAT": "chat-server-dev1MSSQL",
+    "AVATAR": "avatar-server-dev1MSSQL"
   },
-  "ONLY_OFFICE_CALLBACK_URL": "https://qa.almexecm.com:8443/kaz-server-almexecm-qa/onlyOfficeCallBack",
+  "ONLY_OFFICE_CALLBACK_URL": "https://dev3.almexecm.com:8443/kaz-server-dev1MSSQL/onlyOfficeCallBack",
   "UNIQUE_PDF_ID": true,
   "ENABLE_PDF_DOWNLOAD": true,
   "ATTACHMENT_EDIT_MODE": true,
@@ -31,7 +31,7 @@
   "SIGN_UA_PROVIDER": "IIT",
   "IIT": {
     "encoding": "utf-8",
-    "httpProxyServiceURL": "https://qa.almexecm.com:8443/kaz-server-almexecm-qa/ProxyHandler",
+    "httpProxyServiceURL": "https://dev3.almexecm.com:8443/kaz-server-dev1MSSQL/ProxyHandler",
     "directAccess": true,
     "CAs": "/Data/CAs.json",
     "CACertificates": "/Data/CACertificates.p7b",
