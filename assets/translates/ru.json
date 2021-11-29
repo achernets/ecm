@@ -473,7 +473,8 @@
     "add_value_text_button": "cоздать значение справочника",
     "edit_tooltip": "Редактировать справочник",
     "remove_tooltip": "Удалить справочник",
-    "values_not_found": "Нет значений по указанным параметрам"
+    "values_not_found": "Нет значений по указанным параметрам",
+    "refreshHandBookStructure": "Обновить колонки"
   },
   "CreateUpdateHandBookValue": {
     "title": "Добавить/Редактировать значение",
@@ -587,5 +588,71 @@
     "SECONDARY": "Приложение",
     "CARD": "в карточку",
     "CONTENT": "в контент айтем"
+  },
+  "DocumentView": {
+    "INTELLIGENCE": "Сведения",
+    "CHAT": "Чат",
+    "ATTACHMENTS": "Вложения",
+    "PROCESS": "Ход исполнения",
+    "HISTORY": "История",
+    "BASIC_ATTACHMENTS": "Основные вложения",
+    "NAME_DOCUMENT": "Краткое содержание",
+    "GENERAL_INFORMATION": "Общая информация",
+    "ACCOUNT": "Аккаунт",
+    "PATTERN_GROUP": "Группа документов",
+    "PATTERN": "Тип документа",
+    "STAGE": "Этап",
+    "MATCHING": "Согласующие",
+    "SCS": "Грифы",
+    "WORK_ON_DOC": "Работают над документом",
+    "AVTOR": "Автор",
+    "RESPONSIBLE": "Контроль",
+    "EXECUTORS": "Учасники",
+    "CONFIRMEDS": "Согласующие",
+    "SPECTATORS": "Ознакомлены",
+    "RELATIONS": "Связанные документы"
+  },
+  "document": {
+    "nameDocument": "Краткое содержание",
+    "numberDocument": "Регистрационный номер",
+    "registrationDate": "Дата регистрации",
+    "systemNumber": "Системный номер",
+    "createDate": "Создан",
+    "cardDeadlineDate": "Срок исполнения этапа",
+    "documentDeadlineDate": "Контрольная дата",
+    "subStatus": "Расширенный статус",
+    "scChangeDate": "Дата изменения грифа"
+  },
+  "DispatchState": {
+    "INBOX": "Cогласующий",
+    "OUTBOX": "Подписант"
+  },
+  "DocumentPatternStage": {
+    "runPerriodicall": "Периодическое выполнение",
+    "startPeriod": "DocumentPatternStage.startPeriod",
+    "nextStartPeriod": "Период",
+    "periodicJiraEndDate": "Окончание цикла",
+    "periodicEndDate": "DocumentPatternStage.periodicEndDate",
+    "execPriority": "Порядок выполнения",
+    "cardActivityPeriod": "Время на выполнение"
+  },
+  "DocPatternStageExecPriority": {
+    "PARALLEL": "DocPatternStageExecPriority.PARALLEL",
+    "SERIES": "DocPatternStageExecPriority.SERIES"
+  },
+  "DocPatternStageSubStatus": {
+    "DRAFT": "DocPatternStageSubStatus.DRAFT",
+    "PROJECT": "DocPatternStageSubStatus.PROJECT",
+    "CONFIRM": "DocPatternStageSubStatus.CONFIRM",
+    "SIGN": "DocPatternStageSubStatus.SIGN",
+    "IN_WORK": "DocPatternStageSubStatus.IN_WORK",
+    "IN_EXECUTION": "DocPatternStageSubStatus.IN_EXECUTION",
+    "CLOSED": "DocPatternStageSubStatus.CLOSED",
+    "ACTING": "DocPatternStageSubStatus.ACTING",
+    "CANCELED": "DocPatternStageSubStatus.CANCELED",
+    "ARCHIVE": "DocPatternStageSubStatus.ARCHIVE",
+    "REGISTRATION": "DocPatternStageSubStatus.REGISTRATION",
+    "ON_REVISION": "DocPatternStageSubStatus.ON_REVISION",
+    "EDITED": "DocPatternStageSubStatus.EDITED"
   }
 }

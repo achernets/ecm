@@ -473,7 +473,8 @@
     "add_value_text_button": "handbooks.add_value_text_button",
     "edit_tooltip": "handbooks.edit_tooltip",
     "remove_tooltip": "handbooks.remove_tooltip",
-    "values_not_found": "handbooks.values_not_found"
+    "values_not_found": "handbooks.values_not_found",
+    "refreshHandBookStructure": "handbooks.refreshHandBookStructure"
   },
   "CreateUpdateHandBookValue": {
     "title": "CreateUpdateHandBookValue.title",
@@ -587,5 +588,71 @@
     "SECONDARY": "AttachmentExtStatus.SECONDARY",
     "CARD": "AttachmentExtStatus.CARD",
     "CONTENT": "AttachmentExtStatus.CONTENT"
+  },
+  "DocumentView": {
+    "INTELLIGENCE": "DocumentView.INTELLIGENCE",
+    "CHAT": "DocumentView.CHAT",
+    "ATTACHMENTS": "DocumentView.ATTACHMENTS",
+    "PROCESS": "DocumentView.PROCESS",
+    "HISTORY": "DocumentView.HISTORY",
+    "BASIC_ATTACHMENTS": "DocumentView.BASIC_ATTACHMENTS",
+    "NAME_DOCUMENT": "DocumentView.NAME_DOCUMENT",
+    "GENERAL_INFORMATION": "DocumentView.GENERAL_INFORMATION",
+    "ACCOUNT": "DocumentView.ACCOUNT",
+    "PATTERN_GROUP": "DocumentView.PATTERN_GROUP",
+    "PATTERN": "DocumentView.PATTERN",
+    "STAGE": "DocumentView.STAGE",
+    "MATCHING": "DocumentView.MATCHING",
+    "SCS": "DocumentView.SCS",
+    "WORK_ON_DOC": "DocumentView.WORK_ON_DOC",
+    "AVTOR": "DocumentView.AVTOR",
+    "RESPONSIBLE": "DocumentView.RESPONSIBLE",
+    "EXECUTORS": "DocumentView.EXECUTORS",
+    "CONFIRMEDS": "DocumentView.CONFIRMEDS",
+    "SPECTATORS": "DocumentView.SPECTATORS",
+    "RELATIONS": "DocumentView.RELATIONS"
+  },
+  "document": {
+    "nameDocument": "document.nameDocument",
+    "numberDocument": "document.numberDocument",
+    "registrationDate": "document.registrationDate",
+    "systemNumber": "document.systemNumber",
+    "createDate": "document.createDate",
+    "cardDeadlineDate": "document.cardDeadlineDate",
+    "documentDeadlineDate": "document.documentDeadlineDate",
+    "subStatus": "document.subStatus",
+    "scChangeDate": "document.scChangeDate"
+  },
+  "DispatchState": {
+    "INBOX": "DispatchState.INBOX",
+    "OUTBOX": "DispatchState.OUTBOX"
+  },
+  "DocumentPatternStage": {
+    "runPerriodicall": "DocumentPatternStage.runPerriodicall",
+    "startPeriod": "DocumentPatternStage.startPeriod",
+    "nextStartPeriod": "DocumentPatternStage.nextStartPeriod",
+    "periodicJiraEndDate": "DocumentPatternStage.periodicJiraEndDate",
+    "periodicEndDate": "DocumentPatternStage.periodicEndDate",
+    "execPriority": "DocumentPatternStage.execPriority",
+    "cardActivityPeriod": "DocumentPatternStage.cardActivityPeriod"
+  },
+  "DocPatternStageExecPriority": {
+    "PARALLEL": "DocPatternStageExecPriority.PARALLEL",
+    "SERIES": "DocPatternStageExecPriority.SERIES"
+  },
+  "DocPatternStageSubStatus": {
+    "DRAFT": "DocPatternStageSubStatus.DRAFT",
+    "PROJECT": "DocPatternStageSubStatus.PROJECT",
+    "CONFIRM": "DocPatternStageSubStatus.CONFIRM",
+    "SIGN": "DocPatternStageSubStatus.SIGN",
+    "IN_WORK": "DocPatternStageSubStatus.IN_WORK",
+    "IN_EXECUTION": "DocPatternStageSubStatus.IN_EXECUTION",
+    "CLOSED": "DocPatternStageSubStatus.CLOSED",
+    "ACTING": "DocPatternStageSubStatus.ACTING",
+    "CANCELED": "DocPatternStageSubStatus.CANCELED",
+    "ARCHIVE": "DocPatternStageSubStatus.ARCHIVE",
+    "REGISTRATION": "DocPatternStageSubStatus.REGISTRATION",
+    "ON_REVISION": "DocPatternStageSubStatus.ON_REVISION",
+    "EDITED": "DocPatternStageSubStatus.EDITED"
   }
 }
