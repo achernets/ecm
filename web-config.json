@@ -58,10 +58,7 @@
     "PORT": 25989
   },
   "SIGN_TYPE": [
-    "FILE",
-    "SERVER",
-    "SELECT_UMCA",
-    "TOKEN"
+    "SERVER"
   ],
   "USE_ACTION_LINK_ON_BUTTON": true,
   "USER_EMAIL_REQUIRED": true,
