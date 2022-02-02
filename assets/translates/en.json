@@ -46,6 +46,7 @@
     "logout": "navigations.logout",
     "home": "navigations.home",
     "documents": "navigations.documents",
+    "registries": "navigations.registries",
     "users": "navigations.users",
     "administration_title": "navigations.administration_title",
     "administration_logs": "navigations.administration_logs",

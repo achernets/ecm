@@ -13,12 +13,12 @@
   ],
   "START_YEAR": 2018,
   "THRIFT": {
-    "URL": "https://dev3.almexecm.com:8443",
-    "CORE": "kaz-server-dev1MSSQL",
-    "CHAT": "chat-server-dev1MSSQL",
-    "AVATAR": "avatar-server-dev1MSSQL"
+    "URL": "https://dev.almexecm.com:8443",
+    "CORE": "kaz-server-dev1",
+    "CHAT": "chat-server-dev1",
+    "AVATAR": "avatar-server-dev1"
   },
-  "ONLY_OFFICE_CALLBACK_URL": "https://dev3.almexecm.com:8443/kaz-server-dev1MSSQL/onlyOfficeCallBack",
+  "ONLY_OFFICE_CALLBACK_URL": "https://dev.almexecm.com:8443/kaz-server-dev1/onlyOfficeCallBack",
   "UNIQUE_PDF_ID": true,
   "ENABLE_PDF_DOWNLOAD": true,
   "ATTACHMENT_EDIT_MODE": true,
@@ -31,10 +31,10 @@
   "SIGN_UA_PROVIDER": "IIT",
   "IIT": {
     "encoding": "utf-8",
-    "httpProxyServiceURL": "https://dev3.almexecm.com:8443/kaz-server-dev1MSSQL/ProxyHandler",
+    "httpProxyServiceURL": "https://dev.almexecm.com:8443/kaz-server-dev1/ProxyHandler",
     "directAccess": true,
-    "CAs": "/Data/CAs.json",
-    "CACertificates": "/Data/CACertificates.p7b",
+    "CAs": "/Data/CAs.Test.json",
+    "CACertificates": "/Data/CACertificates.Test.p7b",
     "allowedKeyMediaTypes": [
       "е.ключ BIFIT iToken",
       "криптомод. ІІТ Гряда-61",
@@ -53,12 +53,18 @@
       "криптомод. ІІТ Гряда-301"
     ]
   },
+  "DEVICE_NAME_IIT": [
+    "криптомод. ІІТ Гряда-301"
+  ],
   "UMCA_SERVICE": {
     "HTTPS": true,
     "PORT": 25989
   },
   "SIGN_TYPE": [
-    "SERVER"
+    "FILE",
+    "SERVER",
+    "SELECT_UMCA",
+    "TOKEN"
   ],
   "USE_ACTION_LINK_ON_BUTTON": true,
   "USER_EMAIL_REQUIRED": true,
