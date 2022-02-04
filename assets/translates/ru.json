@@ -655,5 +655,25 @@
     "REGISTRATION": "DocPatternStageSubStatus.REGISTRATION",
     "ON_REVISION": "DocPatternStageSubStatus.ON_REVISION",
     "EDITED": "DocPatternStageSubStatus.EDITED"
+  },
+  "ContentItemType": {
+    "TEXT_FIELD": "Текстовое поле",
+    "COMBO_BOX": "Поле со списком",
+    "USER_CHOICE": "Выбор пользователя",
+    "CALENDAR": "Дата",
+    "TABLE": "Таблица",
+    "SEPARATOR": "Разделитель",
+    "MULTILINE_TEXT_FIELD": "Форматируемый текст",
+    "MARK": "Пометка",
+    "CHECKBOX": "Флажок",
+    "SWITCH_ITEM": "Переключатель",
+    "HTTP_LINK": "Название ссылки",
+    "CALENDAR_RANGE": "Период",
+    "CONTAINER": "Группа полей",
+    "HAND_BOOK": "Справочник",
+    "ORG_STRUCTURE": "Департамент",
+    "ATTACHMENT": "Вложение",
+    "CURRENCY": "Число",
+    "BUTTON": "Кнопка"
   }
 }

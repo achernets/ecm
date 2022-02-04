@@ -655,5 +655,25 @@
     "REGISTRATION": "DocPatternStageSubStatus.REGISTRATION",
     "ON_REVISION": "DocPatternStageSubStatus.ON_REVISION",
     "EDITED": "DocPatternStageSubStatus.EDITED"
+  },
+  "ContentItemType": {
+    "TEXT_FIELD": "ContentItemType.TEXT_FIELD",
+    "COMBO_BOX": "ContentItemType.COMBO_BOX",
+    "USER_CHOICE": "ContentItemType.USER_CHOICE",
+    "CALENDAR": "ContentItemType.CALENDAR",
+    "TABLE": "ContentItemType.TABLE",
+    "SEPARATOR": "ContentItemType.SEPARATOR",
+    "MULTILINE_TEXT_FIELD": "ContentItemType.MULTILINE_TEXT_FIELD",
+    "MARK": "ContentItemType.MARK",
+    "CHECKBOX": "ContentItemType.CHECKBOX",
+    "SWITCH_ITEM": "ContentItemType.SWITCH_ITEM",
+    "HTTP_LINK": "ContentItemType.HTTP_LINK",
+    "CALENDAR_RANGE": "ContentItemType.CALENDAR_RANGE",
+    "CONTAINER": "ContentItemType.CONTAINER",
+    "HAND_BOOK": "ContentItemType.HAND_BOOK",
+    "ORG_STRUCTURE": "ContentItemType.ORG_STRUCTURE",
+    "ATTACHMENT": "ContentItemType.ATTACHMENT",
+    "CURRENCY": "ContentItemType.CURRENCY",
+    "BUTTON": "ContentItemType.BUTTON"
   }
 }
