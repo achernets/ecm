@@ -13,12 +13,12 @@
   ],
   "START_YEAR": 2018,
   "THRIFT": {
-    "URL": "https://dev.almexecm.com:8443",
+    "URL": "https://dev1.almexecm.com:8443",
     "CORE": "kaz-server-dev1",
     "CHAT": "chat-server-dev1",
     "AVATAR": "avatar-server-dev1"
   },
-  "ONLY_OFFICE_CALLBACK_URL": "https://dev.almexecm.com:8443/kaz-server-dev1/onlyOfficeCallBack",
+  "ONLY_OFFICE_CALLBACK_URL": "https://dev1.almexecm.com:8443/kaz-server-dev1/onlyOfficeCallBack",
   "UNIQUE_PDF_ID": true,
   "ENABLE_PDF_DOWNLOAD": true,
   "ATTACHMENT_EDIT_MODE": true,
@@ -31,7 +31,7 @@
   "SIGN_UA_PROVIDER": "IIT",
   "IIT": {
     "encoding": "utf-8",
-    "httpProxyServiceURL": "https://dev.almexecm.com:8443/kaz-server-dev1/ProxyHandler",
+    "httpProxyServiceURL": "https://dev1.almexecm.com:8443/kaz-server-dev1/ProxyHandler",
     "directAccess": true,
     "CAs": "/Data/CAs.Test.json",
     "CACertificates": "/Data/CACertificates.Test.p7b",
@@ -66,7 +66,6 @@
     "SELECT_UMCA",
     "TOKEN"
   ],
-  "USE_ACTION_LINK_ON_BUTTON": true,
   "USER_EMAIL_REQUIRED": true,
   "MOBILE_STORE": {
     "APPLE": "itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/tclu27ndkh0zwor/manifest.plist",
